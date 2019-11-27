@@ -1,6 +1,6 @@
 {
   "name": "number-to-lt",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Sitas modulis skirtas skaiciaus konvertavimui i teksta",
   "main": "dist/index.js",
   "scripts": {
@@ -26,9 +26,9 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vampyrian/numberToEuro.git"
+    "url": "https://github.com/Vampyrian/number-to-lt.git"
   },
   "bugs": {
-    "url": "https://github.com/Vampyrian/numberToEuro/issues"
+    "url": "https://github.com/Vampyrian/number-to-lt.git"
   }
 }

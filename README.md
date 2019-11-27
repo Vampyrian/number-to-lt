@@ -1,4 +1,4 @@
-#Šis modulis skirtas skaičiui peversti lietuvišku tekstu
+# Šis modulis skirtas skaičiui paversti lietuvišku tekstu
 
 Kaip instaliuoti?
 
