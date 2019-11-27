@@ -1,0 +1,32 @@
+{
+  "name": "number-to-lt",
+  "version": "1.0.0",
+  "description": "Sitas modulis skirtas skaiciaus konvertavimui i teksta",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "LTU"
+  ],
+  "author": "Žilvinas Mačius",
+  "license": "ISC",
+  "homepage": "https://github.com/Vampyrian/numberToEuro.git",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vampyrian/numberToEuro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vampyrian/numberToEuro/issues"
+  }
+}
