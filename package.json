@@ -11,11 +11,13 @@
   "keywords": [
     "node",
     "npm",
-    "LTU"
+    "LTU",
+    "number",
+    "LT",
+    "locale"
   ],
   "author": "Žilvinas Mačius",
   "license": "ISC",
-  "homepage": "https://github.com/Vampyrian/numberToEuro.git",
   "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
