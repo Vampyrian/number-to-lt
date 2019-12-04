@@ -1,6 +1,6 @@
 {
   "name": "number-to-lt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sitas modulis skirtas skaiciaus konvertavimui i teksta",
   "main": "dist/index.js",
   "scripts": {

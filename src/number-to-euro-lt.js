@@ -23,7 +23,7 @@ export const numberToEuro = (num) => {
     if (sk >= 10 && sk < 21) {
         return eurai[2];
     }
-    if (sk >= 21 && sk < 100 ) {
+    if (sk >= 21 && sk <= 100 ) {
         switch (sk % 10) {
             case 0: return eurai[2];
             case 1: return eurai[0];
