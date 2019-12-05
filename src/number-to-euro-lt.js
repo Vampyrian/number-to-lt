@@ -1,4 +1,4 @@
-export const numberToEuro = (num) => {
+const numberToEuro = (num) => {
     if (typeof num !== "number") throw new TypeError('Turi buti skaicius');
     if (num < 0) throw new TypeError('Turi buti teigiamas skaicius');
     if (num > 1000000000) throw new TypeError('Skaicius negali buti didesnis nei milijardas');
@@ -41,3 +41,5 @@ export const numberToEuro = (num) => {
 };
 
 const eurai = ['euras', 'eurai', 'eurų'];
+
+module.exports = {numberToEuro};

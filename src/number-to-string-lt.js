@@ -1,4 +1,4 @@
-export const numberToString = (num) => {
+const numberToString = (num) => {
     if (typeof num !== "number") throw new TypeError('Turi buti skaicius');
     if (num < 0) throw new TypeError('Turi buti teigiamas skaicius');
     if (num > 1000000000) throw new TypeError('Skaicius negali buti didesnis nei milijardas');
@@ -81,3 +81,5 @@ const ikiDvidesimt = ['dešimt', 'vienuolika', 'dvylika', 'trylika', 'keturiolik
     'penkiolika', 'šešiolika', 'septyniolika', 'aštuoniolika', 'devyniolika'];
 const milijonai = [' milijonas ', ' milijonai ', ' milijonų '];
 const tukstanciai = [' tūkstantis ', ' tūkstančiai ', ' tūkstančių '];
+
+module.exports = {numberToString};

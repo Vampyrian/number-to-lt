@@ -1,7 +1,8 @@
-import { numberToString } from './number-to-string-lt';
-import { numberToEuro } from "./number-to-euro-lt";
+const {numberToEuro} = require('./number-to-euro-lt');
+const {numberToString} = require('./number-to-string-lt');
 
-export const numberToStringLT = numberToString;
-export const numberToEuroLT = numberToEuro;
-
+module.exports = {
+    numberToStringLT: numberToString,
+    numberToEuroLT: numberToEuro,
+};
 
